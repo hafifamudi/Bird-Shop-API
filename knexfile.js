@@ -1,4 +1,4 @@
-// Update with your config settings.
+const { HOST, USER, DB, PASSWORD,}
 
 module.exports = {
 
@@ -10,12 +10,12 @@ module.exports = {
     client: 'mysql',
     connection: {
 
-        host: 'localhost',
+        host: HOST,
 
-        user: 'root',
-        password: 'rootuser',
+        user: USER,
+        password: PASSWORD,
 
-        database: 'hapi_db',
+        database: DB,
         charset: 'utf8',
 
     }
