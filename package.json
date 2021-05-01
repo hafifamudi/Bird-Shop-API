@@ -1,0 +1,19 @@
+{
+  "name": "restfull2",
+  "version": "1.0.0",
+  "description": "make restfull api with hapi http framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "hapi-auth-jwt2": "^10.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1",
+    "uuidv4": "^6.2.7"
+  }
+}
